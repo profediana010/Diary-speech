@@ -1,0 +1,14 @@
+1. Instalar la base de datos 📁
+
+2. Crear el botón y darle estilos. Hacer que el botón use una etiqueta <a>: 
+   Este botón servirá para activar la grabación de voz.
+   ¿En qué HTML debe ir creado? 
+
+3. Crear la función grabadora de voz en speech.py:
+
+4. Importar la función speech() en el archivo main.  Luego crea una ruta llamada /voice que use esa función para convertir la voz en texto.
+
+5. Regresar al botón y conectarlo con la ruta:
+   Ahora vuelve al botón que creaste y asegúrate de que apunte a la ruta /voice usando un enlace como href="./voice".
+
+6. Agregar la variable {{ text }} en el textarea
