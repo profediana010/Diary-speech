@@ -41,6 +41,7 @@ def reg():
     if request.method == 'POST':
         login = request.form['email']
         password = request.form['password']
+        #Tarea 3
         user = User(login=login, password=password)
         db.session.add(user)
         db.session.commit()
